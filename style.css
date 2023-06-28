@@ -1,49 +1,3 @@
-h3 {
-  font-size: 20px;
-  color: aqua;
-  font-style: oblique;
-  text-align: center;
-}
-
-h4 {
-  font-size: 20px;
-  color: aqua;
-  font-style: oblique;
-  text-align: center;
-}
-
-.skill-header {
-  text-align: left;
-}
-
-.skill-container {
-  border: solid aqua;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px;
-  margin-bottom: 8px;
-}
-
-p {
-  font-size: 20px;
-  color: rgb(59, 253, 152);
-  font-style: oblique;
-}
-
-a {
-  font-size: 20px;
-  color: rgb(255, 101, 204);
-  font-style: oblique;
-}
-
-body {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .myButton {
   background: linear-gradient(to bottom, #6e90ff 5%, #d271f0 100%);
   background-color: #6e90ff;
@@ -68,7 +22,7 @@ body {
 }
 
 .btn2 {
-  background: linear-gradient(to bottom, #ffa1ba 5%, #3bffb7 100%);
+  background: linear-gradient(to bottom, #6e90ff 5%, #d271f0 100%);
   background-color: #ffa1ba;
   border-radius: 42px;
   display: inline-block;
@@ -81,7 +35,7 @@ body {
   text-shadow: 0px 1px 0px #366b86;
 }
 .btn2:hover {
-  background: linear-gradient(to bottom, #3bffb7 5%, #ffa1ba 100%);
+  background: linear-gradient(to bottom, #d271f0 5%, #6e90ff 100%);
   background-color: #3bffb7;
   transform: translateY(3px);
 }
@@ -91,7 +45,7 @@ body {
 }
 
 .btn3 {
-  background: linear-gradient(to bottom, #8c52ff 5%, #d4d96f 100%);
+  background: linear-gradient(to bottom, #6e90ff 5%, #d271f0 100%);
   background-color: #8c52ff;
   border-radius: 42px;
   display: inline-block;
@@ -104,11 +58,54 @@ body {
   text-shadow: 0px 1px 0px #2f6627;
 }
 .btn3:hover {
-  background: linear-gradient(to bottom, #d4d96f 5%, #8c52ff 100%);
+  background: linear-gradient(to bottom, #d271f0 5%, #6e90ff 100%);
   background-color: #d4d96f;
   transform: translateY(3px);
 }
 .btn3:active {
   position: relative;
   margin-top: 1px;
+}
+
+.btn4 {
+  background: linear-gradient(to bottom, #6e90ff 5%, #d271f0 100%);
+  background-color: #e38b92;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #366b86;
+}
+.btn4:hover {
+  background: linear-gradient(to bottom, #d271f0 5%, #6e90ff 100%);
+  background-color: #3bffb7;
+  transform: translateY(3px);
+}
+.btn4:active {
+  position: relative;
+  margin-top: 1px;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+.rounded-leftside {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.rounded-rightside {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.smui {
+  border: 2px solid;
+  background-color: white;
+  border-radius: 15px;
 }

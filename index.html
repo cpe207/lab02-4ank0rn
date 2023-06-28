@@ -5,34 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-  </head>
-  <body background="images/download (3).jpg">
-    <h3>My Portfolio</h3>
-    <img
-      style="margin-left: auto; margin-right: auto; display: block"
-      src="images/329655679_1295041237713005_6777653112739923202_n.jpg"
-      hieght="168px"
-      width="300px"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <h4>Kankorn Chirachaihirun</h4>
-    <p style="text-align: center">
-      Hi my name is Au. I graduated from Chiangmai University. Nice to meet you!
-    </p>
-    <h3>Skills</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Programming</h3>
-      <p>I can code c++</p>
+  </head>
+  <body style="background-color: #ffd9e6">
+    <div class="d-flex justify-content-center">
+      <div class="display-5 mb-2">My Portfolio</div>
     </div>
-    <div class="skill-container">
-      <h3 class="skill-header">Sport</h3>
-      <p>I can kick the ball.</p>
-    </div>
-    <p style="text-align: center; margin-right: 5px">
+    <div class="d-flex justify-content-center gap-4 fw-bold my-4">
       <a href="index.html" class="myButton">Home</a>
-      |
       <a href="exp.html" class="btn3">Experience</a>
-      |
+      <a href="gallery.html" class="btn4">Gallery</a>
       <a href="contact.html" class="btn2">Contact Me!!</a>
+    </div>
+    <div class="p-3 mx-auto" style="max-width: 50rem">
+      <div
+        class="d-flex gap-3 justify-content-center mx-auto align-items-center"
+      >
+        <img
+          style="object-fit: cover"
+          src="images/329655679_1295041237713005_6777653112739923202_n.jpg"
+          hieght="180px"
+          width="180px"
+          class="rounded-circle"
+        />
+        <div class="d-none d-sm-block">
+          <div class="display-5 mb-3">Kankorn Chirachaihirun</div>
+          <div class="text-muted">
+            Hi my name is Au. I graduated from Chiangmai University. Nice to
+            meet you!I study at faculty computer engineering. I love playing
+            game and listen to music in my freetime.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-center">Skills</h3>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm rounded-corners smui">
+        <div class="rounded-leftside">
+          <img
+            src="images/languages-programming-html-wallpaper-preview.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-leftside d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-normal fs-5">Programming</p>
+          <span class="text-muted"
+            >I can code in C++, HTML and CSS, but I'm not that good at it.</span
+          >
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm rounded-corners smui">
+        <div class="p-4">
+          <p class="fw-normal fs-5">Cooking</p>
+          <span class="text-muted"
+            >I can cook various dishes, but it is necessary to have a recipe to
+            follow when cooking.</span
+          >
+        </div>
+        <div class="rounded-rightside">
+          <img
+            src="images/food.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-rightside d-none d-sm-block"
+          />
+        </div>
+      </div>
+      <div class="d-flex border mb-3 shadow-sm rounded-corners smui">
+        <div class="rounded-leftside">
+          <img
+            src="images/353946685_757506246169520_496464007476302547_n.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-leftside d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-normal fs-5">Eating</p>
+          <span class="text-muted">
+            I eat a lot when I'm hungry, and I consider it a skill. It may also
+            be because people in my family have told me so.</span
+          >
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-muted m-4">
+      © 2022 kankorn_c.com by Kankorn Chirachaihirun
     </p>
   </body>
 </html>
